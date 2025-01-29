@@ -1,8 +1,23 @@
-# React + Vite
+# CV en Ligne - William Ghazarian
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un CV en ligne développé avec **React** et **Vite**. Il met en avant mes compétences, mes projets et mes informations de contact dans une interface moderne et réactive.
 
-Currently, two official plugins are available:
+## Technologies Utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - Bibliothèque JavaScript pour construire des interfaces utilisateur.
+- **Vite** - Outil de construction et de développement rapide pour les projets modernes.
+- **Tailwind CSS** - Cadre CSS utilitaire pour un design réactif.
+- **Heroicons** - Ensemble d'icônes SVG pour une meilleure expérience utilisateur.
+
+## Contributions
+
+Les contributions sont les bienvenues ! Si vous souhaitez proposer des améliorations ou des corrections, n'hésitez pas à créer une pull request ou à ouvrir une issue.
+
+## Contact
+
+Pour toute question ou pour me contacter, vous pouvez m'écrire à l'adresse suivante :
+
+    Email : ghazarian.w@proton.me
+    GitHub : ghazarian-w
+
+Merci d'avoir consulté mon CV en ligne. J'espère que vous apprécierez la visite !
