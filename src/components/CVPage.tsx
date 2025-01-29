@@ -23,9 +23,7 @@ const CVPage = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-gray-100">
       {/* Hero Section */}
-      <div
-        className="relative h-96 bg-[url('/src/assets/background.webp')] bg-cover bg-center flex items-center justify-center"
-      >
+     <div className="relative h-96 bg-[url('/src/assets/background.webp')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
         <div className="absolute inset-0 bg-black/50" /> {/* Dark overlay */}
         <div className="relative z-10 text-center">
           <h1 className="text-4xl font-bold mb-4">William Ghazarian</h1>
