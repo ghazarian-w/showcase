@@ -22,17 +22,20 @@ const CVPage = () => {
   
     return (
       <div className="min-h-screen bg-gray-900 text-gray-100">
-        {/* Hero Section */}
-        <div className="relative h-96 bg-gradient-to-r from-blue-900 to-purple-900 flex items-center justify-center">
-          <div className="absolute inset-0 bg-black/50" />
-          <div className="relative z-10 text-center">
-            <h1 className="text-4xl font-bold mb-4">William Ghazarian</h1>
-            <p className="text-xl text-gray-300">Développeur & Admin Système</p>
-          </div>
+      {/* Hero Section */}
+      <div
+        className="relative h-96 bg-[url('/src/assets/background.webp')] bg-cover bg-center flex items-center justify-center"
+      >
+        <div className="absolute inset-0 bg-black/50" /> {/* Dark overlay */}
+        <div className="relative z-10 text-center">
+          <h1 className="text-4xl font-bold mb-4">William Ghazarian</h1>
+          <p className="text-xl text-gray-300">Développeur & Admin Système</p>
         </div>
+      </div>
   
         {/* Main Content */}
-        <div className="mx-auto px-4 py-12">
+        <div className="w-full mx-auto px-4 py-12">
+
           {/* Compétences Section */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-8 text-purple-400">Mes compétences</h2>
