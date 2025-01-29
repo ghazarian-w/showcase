@@ -21,7 +21,7 @@ const CVPage = () => {
     };
   
     return (
-      <div className="min-h-screen bg-gray-900 text-gray-100">
+      <div className="min-h-screen bg-gray-900 text-gray-100 overflow-hidden max-w-full">
       {/* Hero Section */}
       <div
         className="relative h-96 bg-[url('/src/assets/background.webp')] bg-cover bg-center flex items-center justify-center"
