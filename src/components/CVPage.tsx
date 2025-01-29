@@ -32,7 +32,7 @@ const CVPage = () => {
         </div>
   
         {/* Main Content */}
-        <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="mx-auto px-4 py-12">
           {/* Compétences Section */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-8 text-purple-400">Mes compétences</h2>
