@@ -21,10 +21,10 @@ const CVPage = () => {
     };
   
     return (
-      <div className="min-h-screen bg-gray-900 text-gray-100">
+      <div className="min-h-screen bg-gray-900 text-gray-100 overflow-hidden">
       {/* Hero Section */}
       <div
-        className="relative h-96 bg-[url('/src/assets/background.webp')] bg-cover bg-center flex items-center justify-center"
+        className="relative h-96 bg-[url('/src/assets/background.webp')] bg-cover bg-center flex items-center justify-center w-full"
       >
         <div className="absolute inset-0 bg-black/50" /> {/* Dark overlay */}
         <div className="relative z-10 text-center">
@@ -34,7 +34,7 @@ const CVPage = () => {
       </div>
   
         {/* Main Content */}
-        <div className="w-full mx-auto px-4 py-12">
+        <div className="w-full max-w-screen-lg mx-auto px-4 py-12">
 
           {/* Compétences Section */}
           <section className="mb-12">
