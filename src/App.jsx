@@ -1,9 +1,7 @@
-import CVPage from './components/CVPage'
+import CVPage from "./pages/cv-page";
 
 function App() {
-  return (
-    <CVPage />
-  )
+	return <CVPage />;
 }
 
-export default App
+export default App;
